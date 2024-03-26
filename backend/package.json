@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backand side in quiz.app",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "author": "risunyaaa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0"
+  }
+}
