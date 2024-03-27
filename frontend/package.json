@@ -9,10 +9,15 @@
     "author": "risunyaaa",
     "license": "ISC",
     "dependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.18.6",
+        "@babel/preset-react": "^7.24.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
     "devDependencies": {
+        "@babel/core": "^7.24.3",
+        "@babel/preset-env": "^7.24.3",
+        "babel-loader": "^9.1.3",
         "css-loader": "^6.10.0",
         "html-webpack-plugin": "^5.6.0",
         "style-loader": "^3.3.4",
