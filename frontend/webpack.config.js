@@ -13,6 +13,9 @@ module.exports = {
             template: './dist/index.html' // Путь к вашему файлу index.html в папке dist
         })
     ],
+    resolve: {
+        extensions: ['.js', '.jsx']
+    },
     module: {
         rules: [
             {
@@ -27,6 +30,16 @@ module.exports = {
                     options: {
                         presets: ['@babel/env'],
                         plugins: ['@babel/plugin-proposal-class-properties']
+                    }
+                }
+            },
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env', '@babel/preset-react']
                     }
                 }
             }

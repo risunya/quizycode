@@ -1,9 +1,12 @@
+// import Auth from './src/components/auth';
 import Auth from './src/components/auth';
 import './src/styles/global.css';
 import React from 'react';
 
-const App = () => {
 
+
+
+const App = () => {
     return (    
         <>
             <Auth></Auth>
