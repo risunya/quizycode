@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <>
             <header>
-                <div className="wrapper">
+                <div className="header-wrapper">
                     <button className="feed-link"><Link to={'/'}>Home</Link></button>
                     <button className='quiz-link'><Link to={'/quiz'}>Feed</Link></button>
                     <button className='profile-link'><Link to={'/profile'}>Your Profile</Link></button>

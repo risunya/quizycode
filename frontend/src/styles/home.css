@@ -1,0 +1,40 @@
+/* first one wrapper */
+.news-wrapper {
+    margin: 50px 0;
+}
+.news-article {
+    border-bottom: 2px black solid;
+}
+.news-container {
+    min-height: 200px;
+}
+.news-container__item {
+    margin: 10px 20px;
+    padding: 10px 0;
+    display: flex;
+    border: 1px black solid;
+    transition: .3s;
+}
+.news-container__item:hover {
+    box-shadow: 2px 2px #4f4d4d;
+}
+/* next one wrapper */
+.quiz-feed-wrapper {
+    margin: 50px 0;
+}
+.quiz-feed-article {
+    border-bottom: 2px black solid;
+}
+.quiz-container {
+    min-height: 200px;
+}
+.quiz-container__item {
+    margin: 10px 20px;
+    padding: 10px 0;
+    display: flex;
+    border: 1px black solid;
+    transition: .3s;
+}
+.quiz-container__item:hover {
+    box-shadow: 2px 2px #4f4d4d;
+}

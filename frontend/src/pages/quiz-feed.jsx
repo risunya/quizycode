@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../components/footer';
 
 const QuizFeed = () => {
     return (
@@ -7,6 +8,7 @@ const QuizFeed = () => {
             <h1>eto quiz!</h1>
             <Link to="/">go to profile</Link>
             <Link to="/profile">go to quiz</Link>
+            <Footer></Footer>
          </div>
     )
 }
