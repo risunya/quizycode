@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Quiz = () => {
+const QuizFeed = () => {
     return (
         <div>
             <h1>eto quiz!</h1>
@@ -11,4 +11,4 @@ const Quiz = () => {
     )
 }
 
-export default Quiz;
+export default QuizFeed;
