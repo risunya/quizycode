@@ -10,8 +10,11 @@ const Profile = () => {
                 <div className='left-wrapper'>
                     <div className="left-wrapper__profile">
                         <SmileOne/>
+                        <h1 className='left-wrapper__tag'>@risunyaaa</h1>
+                        <h3 className='left-wrapper__description'>Full Stack Developer</h3>
                     </div>
-                    <div className="left-wrapper__links"></div>
+                    <div className="left-wrapper__links">
+                    </div>
                 </div>
                 <div className='right-wrapper'>
                     <div className="right-wrapper__parameters"></div>
