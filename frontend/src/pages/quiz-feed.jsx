@@ -6,8 +6,6 @@ const QuizFeed = () => {
     return (
         <div>
             <h1>eto quiz!</h1>
-            <Link to="/">go to profile</Link>
-            <Link to="/profile">go to quiz</Link>
             <Footer></Footer>
          </div>
     )

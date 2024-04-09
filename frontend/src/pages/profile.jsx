@@ -1,14 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Footer from '../components/footer';
+import '../styles/profile.css';
+import SmileOne from '../../public/assets/smile';
 
 const Profile = () => {
     return (
         <div>
-            <h1>eto profile!</h1>
-            <Link to="/">go to profile</Link>
-            <Link to="/quiz">go to quiz</Link>
-            <Footer></Footer>
+            <div className="profile-container">
+                <div className='left-wrapper'>
+                    <div className="left-wrapper__profile">
+                        <SmileOne/>
+                    </div>
+                    <div className="left-wrapper__links"></div>
+                </div>
+                <div className='right-wrapper'>
+                    <div className="right-wrapper__parameters"></div>
+                    <div className="right-wrapper__quiz-stats"></div>
+                </div>
+            </div>
+            <Footer />
          </div>
     )
 }

@@ -7,9 +7,12 @@ const Navbar = () => {
         <>
             <header>
                 <div className="header-wrapper">
-                    <button className="feed-link"><Link to={'/'}>Home</Link></button>
+                    <button className="feed-link active"><Link to={'/'}>Home</Link></button>
                     <button className='quiz-link'><Link to={'/quiz'}>Feed</Link></button>
-                    <button className='profile-link'><Link to={'/profile'}>Your Profile</Link></button>
+                    <div className='profile-menu'>
+                        <button className='profile-link'><Link to={'/profile'}>Log In</Link></button>
+                        <button className='profile-link'><Link to={'/profile'}>Sign In</Link></button>
+                    </div>
                 </div>
             </header>   
             <Outlet/>
