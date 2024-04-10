@@ -56,6 +56,5 @@ module.exports = {
         compress: true,
         port: 4000,
         open: true,
-        hot: true // Активируем HMR в devServer
     }
 }
